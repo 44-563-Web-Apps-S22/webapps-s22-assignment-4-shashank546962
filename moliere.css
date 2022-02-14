@@ -1,0 +1,94 @@
+speech{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    color: black;
+}
+.stagedirection{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    color: black;
+    background-color: lightskyblue;
+}
+.name{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    color: black;
+}
+.stagedirection:hover{
+    background-color: gray;
+    color: white;
+
+}
+.Cleante{
+    color:blueviolet;
+
+}
+.Tartuffe{
+    color: yellowgreen;
+}
+
+.table,
+td{
+    border: 2px solid burlywood;
+    border-collapse: border_collapse;
+    text-align:left;
+    color: red;
+    padding: 8px;
+    margin: 10px;
+}
+th{
+    border: 2px solid black;
+    text-align: center;
+    background-color: blueviolet;
+    padding: 8px;
+    margin: 10px;
+}
+tr:nth-child(even){
+    background-color: lightgreen;
+
+}
+
+.name:hover{
+text-shadow:2px 2px 5px red;
+color:teal;
+filter:pink(3px);
+border:double 2px black
+
+}
+
+.navigation{
+    width: 100%;
+    overflow: auto;
+}
+
+.navigation a {
+    float:left;
+    padding: 15px;
+    color:black;
+    background-color: grey;
+    align-content: center;
+    left: 15%;
+    position: relative;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.navigation a:hover {
+    background-color: cyan;
+}
+
+.item {
+    color: white;
+    background-color: black;
+}
+
+@media screen and (max-width: 300px) {
+    .navbar a {
+        float: none;
+        display: block;
+    }
+}
+
+.icon {
+    float:right;
+}
